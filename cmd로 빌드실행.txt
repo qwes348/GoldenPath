@@ -1,0 +1,23 @@
+Server:
+<Path to Project>\Build\GoldenPath.exe -mlapi server
+
+Client:
+<path to project>\Build\GoldenPath.exe -mlapi client
+
+To run these commands on a single line:
+GoldenPath\Build\GoldenPath.exe -mlapi server & GoldenPath\Build\GoldenPath.exe -mlapi client
+
+Example:
+C:\Users\sarao>GoldenPath\Build\GoldenPath.exe -mlapi server & GoldenPath\Build\GoldenPath.exe -mlapi client
+
+
+로그도 같이보려면
+
+Server:
+<Path to Project>\Build\GoldenPath.exe -logfile log-server.txt -mlapi server 
+
+Client:
+<Path to Project>\Build\GoldenPath.exe  -logfile log-client.txt -mlapi client
+
+Example (Running as a single command line):
+C:\Users\sarao>GoldenPath\Build\GoldenPath.exe -logfile -log-server.txt -mlapi server & GoldenPath\Build\GoldenPath.exe -logfile log-client.txt -mlapi client

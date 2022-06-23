@@ -3,6 +3,7 @@ using UnityEngine;
 
 namespace HelloWorld
 {
+    // HelloWorldPlayer¿Í ¼¼Æ®
     public class HelloWorldManager : MonoBehaviour
     {
         void OnGUI()

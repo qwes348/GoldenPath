@@ -4,7 +4,8 @@ using UnityEngine;
 
 namespace HelloWorld
 {
-    // 플레이어 컨트롤러
+    // 플레이어 움직임 동기화 테스트
+    // 플레이어 프리팹에 부착
     // MonoBehaviour가 아닌 NetworkBehaviour를 상속받음
     public class HelloWorldPlayer : NetworkBehaviour
     {
